@@ -133,6 +133,7 @@ html {
   .main-nav {
     list-style: none;
     text-transform: uppercase;
+    font-family: 'Lexend Tera', sans-serif;
   }
   
   /* get rid of underline on links */
@@ -278,11 +279,13 @@ html {
     font-size: 2rem;
     margin: 0;
     color: gray;
+    font-family: 'Muli', sans-serif;
   }
   
   .card p {
     font-size: 1rem;
     line-height: 1.5;
+    font-family: 'Muli', sans-serif;
   }
   
   .card footer {
@@ -292,6 +295,7 @@ html {
     text-transform: uppercase;
     margin: 0;
     text-align: center;
+    font-family: 'Muli', sans-serif;
   }
 /*cards*/  
 
@@ -323,6 +327,7 @@ html {
   
   h1 {
     font-size: 2rem;
+    font-family: 'Muli', sans-serif;
   }
   
   article > p {
@@ -366,7 +371,7 @@ html {
   
   @media (min-width: 1200px) {
     .columns {
-      background:tan;
+      background: lightgray;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
     }
@@ -471,7 +476,7 @@ img {
 }
 
 .title h1 {
-  color: yellowgreen;
+  color: pink;
   font-size: 10vw;
 }
 
